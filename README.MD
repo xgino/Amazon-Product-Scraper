@@ -11,7 +11,8 @@ Demo Gif
 * **Human-Like Interaction:** Simulates scrolling, random wait times, and natural mouse movements using `Playwright` to minimize bot detection.
 * **Memory Efficient:** Clears processed URLs dynamically to optimize RAM usage during long scraping sessions.
 * **Pagination:** Automatically navigates through search result pages to maximize data collection.
-* **Data Cleaning:** Includes a Jupyter Notebook (`cleanup.ipynb`) to format raw data into a polished dataset.
+* **No Proxy Rotation:** Sadly, there’s no proxy rotation… 😢 But at least there’s a Jupyter Notebook (`cleanup.ipynb`) to turn messy raw data into a somewhat polished dataset.
+
 
 ## 📊 Data Collected
 
