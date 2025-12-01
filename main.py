@@ -69,7 +69,7 @@ class AmazonScraper:
 
     def search_keyword(self, page, keyword: str):
         box = page.locator("#twotabsearchtextbox")
-        box.wait_for(state="visible", timeout=5000)
+        box.wait_for(state="visible", timeout=10000)
         box.click()
         box.fill(keyword)
         page.keyboard.press("Enter")
@@ -265,7 +265,7 @@ if __name__ == "__main__":
             for kw in keywords:
                 logging.info(f"Searched keyword: {kw}")
                 scraper.search_keyword(page, kw)
-                time.sleep(scraper.get_secure_wait_time(2, 5))
+                time.sleep(scraper.get_secure_wait_time(3, 7))
 
                 # traverse pages and collect links up to max_pages
                 max_pages = 5
@@ -302,7 +302,7 @@ if __name__ == "__main__":
                 collected.clear()
 
 
-            logging.info("SCRAPER COMPLETED!")
+            logging.info("==================== SCRAPER COMPLETED! ====================")
             time.sleep(scraper.get_secure_wait_time(3, 7))
 
     except Exception as e:
