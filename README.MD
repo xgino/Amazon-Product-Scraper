@@ -29,7 +29,7 @@ The scraper extracts the following fields:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yourusername/amazon-scraper.git](https://github.com/yourusername/amazon-scraper.git)
+git clone [https://github.com/xgino/Amazon-Product-Scraper.git](https://github.com/xgino/Amazon-Product-Scraper.git)
 cd amazon-scraper
 ```
 
