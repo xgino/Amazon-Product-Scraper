@@ -29,8 +29,8 @@ The scraper extracts the following fields:
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/xgino/Amazon-Product-Scraper.git](https://github.com/xgino/Amazon-Product-Scraper.git)
-cd amazon-scraper
+git clone https://github.com/xgino/Amazon-Product-Scraper.git
+cd Amazon-Product-Scraper
 ```
 
 ### 2. Create a Virtual Environment
